@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner{
+    
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25)), url('resources/Banner\ Image.png');
+    border-radius: 50px;
+    background-size: 1320px 600px;
+    width: 1320px;
+    height: 600px;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    padding-left: 150px;
+    padding-top: 150px;
+    font-family: Merriweather;
+   
+}
+
+.banner-text{
+    padding-top: 50px;
+}
+
+#small-ban{
+    padding-right: 60px;
+    padding-top: 20px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400; 
+    line-height: normal; 
+}
+
+#big-ban{
+   
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900; 
+}
