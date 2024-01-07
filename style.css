@@ -5,9 +5,10 @@
 
 .banner{
     
-    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25)), url('resources/Banner\ Image.png');
-    border-radius: 50px;
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25)), url('resources/Banner\ Image.png') ;
+    
     background-size: 1320px 600px;
+    
     width: 1320px;
     height: 600px;
     color: white;
@@ -39,4 +40,100 @@
     font-size: 72px;
     font-style: normal;
     font-weight: 900; 
+}
+
+section{
+    padding-top: 100px;
+}
+
+.sec1-texts{
+    text-align: center;
+    font-family: Inter;
+}
+
+#first-sec1{
+    color: red;
+    font-size: 88px;
+    
+}
+
+#second-sec1{
+    padding-top: 50px;
+    color: red;
+    font-size: 24px;
+}
+
+#third-sec1{
+    font-size: 48px;
+    padding-top: 20px;
+}
+
+.img-sec1{
+    width: 802.9px;
+    height: 500px; 
+    padding-left: 350px;
+    padding-top: 100px;
+}
+
+.sec2{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png') ;
+    background-size: 1320px 600px;
+    width: 1320px;
+    height: 600px; 
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    padding-left: 150px;
+    padding-top: 150px;
+    display: flex;
+
+}
+
+
+.sec2-texts{
+    color: white;
+    padding-top: 100px;
+    padding-left: 100px;
+    
+   
+}
+
+#img-sec2{
+    
+    width: 300px;
+    height: 500px;
+    padding-left: 60px;
+}
+
+#first-sec2{
+    font-family: Merriweather;
+    font-size: 64px; 
+    word-spacing: 10px;
+}
+
+#second-sec2{
+    font-family: Merriweather;
+    font-size: 64px; 
+    word-spacing: 10px;
+}
+
+#third-sec2{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    padding-top: 20px; 
+}
+
+#button-sec2{
+    padding-top: 20px;
+    color: white;
+    font-family: Inter;
+    font-size: 20px; 
+    background-color: transparent;
+    border-color: transparent;
+   
+}
+
+.btn-container:hover{
+    
 }
