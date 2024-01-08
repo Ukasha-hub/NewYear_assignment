@@ -226,6 +226,7 @@ span{
 
 #left-first{
     font-family: Inter;
+    font-weight: 100;
     font-size: 24px;
     color: red;
     padding-top: 16px;
@@ -464,4 +465,87 @@ font-family: Inter;
     color: white;
     font-family: Inter;
     
+}
+
+footer{
+    bottom: 800px;
+    background: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    width: 1530px;
+    height: 700px;
+    background-position: center;
+    
+
+}
+
+.upp{
+    display: flex;
+    font-family: Inter;
+    font-weight: 100;
+font-size: 24px; 
+line-height: 50px;
+padding-bottom: 50px;
+}
+
+.upper-left{
+    padding-left: 140px;
+    padding-top: 120px;
+    
+}
+
+.upper-right{
+    padding-left: 500px;
+    padding-top: 120px;
+}
+
+.footer-ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.ls{
+    padding-left: 20px;
+}
+
+hr{
+    width: 1320px;
+    height: 1px;
+    margin-left: 130px;
+
+}
+
+
+.ul-logos{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex ;
+    list-style-type: none;
+}
+
+.fb{
+    padding-left: 600px;
+}
+
+.smedia{
+    padding-left:40px
+}
+
+.low{
+    display: flex;
+    font-family: Inter;
+font-size: 24px; 
+
+}
+
+.lower-left{
+    padding-left: 140px;
+    padding-top: 90px;
+}
+
+.lower-right{
+    padding-left: 700px;
+    padding-top: 90px;
 }
