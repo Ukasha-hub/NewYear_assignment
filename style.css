@@ -14,17 +14,20 @@
     height: 600px;
     color: white;
     text-align: center;
-    background-attachment: fixed;
+    margin: auto;
     background-position: center; 
     background-repeat: no-repeat;
     padding-left: 150px;
     padding-top: 150px;
     font-family: Merriweather;
+    
    
 }
 
 .banner-text{
-    padding-top: 50px;
+    padding-top: 30px;
+    margin: 50px;
+    margin-left: -60px;
 }
 
 #small-ban{
@@ -47,6 +50,7 @@
 
 section{
     padding-top: 100px;
+    
 
 
 /*section 1*/
@@ -78,8 +82,8 @@ section{
 .img-sec1{
     width: 802.9px;
     height: 500px; 
-    padding-left: 350px;
-    padding-top: 100px;
+   
+    padding-top: 50px;
 }
 
 /*section 2*/
@@ -89,7 +93,7 @@ section{
     background-size: 1320px 600px;
     width: 1320px;
     height: 600px; 
-    background-attachment: fixed;
+    margin: auto;
     background-position: center; 
     background-repeat: no-repeat;
     padding-left: 150px;
@@ -163,7 +167,7 @@ section{
     height: 482px; 
     padding-left: 150px;
     padding-top: 150px;
-    background-attachment: fixed;
+    margin: auto;
     background-position: center; 
     background-repeat: no-repeat;
     
@@ -176,6 +180,8 @@ section{
     font-family: Inter;
     font-size: 32px;
     line-height: 56px; 
+    margin-left: -110px;
+    margin-top: 50px;
 }
 
 span{
@@ -183,7 +189,7 @@ span{
 }
 
 .sec3-button{
-    padding-left: 550px;
+    padding-left: 500px;
     padding-top: 48px;
    
    
@@ -209,7 +215,7 @@ span{
     display: flex;
     padding-left: 60px;
     padding-top: 50px;
-    background-attachment: fixed;
+    margin: auto;
     background-position: center; 
     background-repeat: no-repeat;
 }
@@ -328,8 +334,8 @@ span{
     display: flex;
     padding-left: 60px;
     padding-top: 50px;
-    background-attachment: fixed;
-    background-position: 1029px 204px, bottom; 
+    margin: auto;
+    background-position: 955px 50px, bottom; 
     background-repeat: no-repeat;
 
     
@@ -347,19 +353,31 @@ span{
 }
 
 .sec5-right-img{
-    padding-left: 100px;
-    padding-top: 50px;
+    padding-left: 90px;
+    padding-top: 60px;
     
 }
 .sec5-img-right{
-    top: 400px;
+   
+    height: 230px;
+    width: 230px;
 }
 
 /*section 6*/
-
+.sec6{
+   
+    width: 1320px;
+    height: 600px; 
+    
+    padding-top: 50px;
+    margin: auto;
+    
+    
+    
+}
 .sec6-texts{
     text-align: left;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 #sec6-first{
@@ -388,7 +406,7 @@ span{
     width: 1320px;
     height: 900px; 
     
-    padding-left: 90px;
+    padding-left: 50px;
     padding-top: 50px;
     background-attachment: fixed;
     background-position: center; 
@@ -418,13 +436,14 @@ span{
 .sec7{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.05) 100%, rgba(255, 0, 0, 0.05) 100%);
     background-size: 1320px 600px;
-    
+    margin-left: 60px;
     width: 1320px;
     height: 600px; 
-    padding-left: 100px;
-    padding-top: 100px;
+    padding-left: 40px;
+    padding-top: 70px;
     text-align: center;
-    background-attachment: fixed;
+    margin: auto;
+    margin-top: 600px;
     background-position: center; 
     background-repeat: no-repeat;
     border: solid;
@@ -476,7 +495,12 @@ font-size: 20px;
     width: 40%;
     border-color: transparent;
 
-  
+input::placeholder, textarea::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px; 
+}
 
 }
 
@@ -485,7 +509,7 @@ font-size: 20px;
     padding: 10px;
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
-    height: 67px;
+    height: 63px;
     width: 10%;
     right: 5px;
     border-color: transparent;
@@ -503,8 +527,9 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin: auto;
     color: white;
-    width: 1530px;
+    width: 1550px;
     height: 700px;
     background-position: center;
     
@@ -514,14 +539,15 @@ footer{
 .upp{
     display: flex;
     font-family: Inter;
-    font-weight: 100;
+    
 font-size: 24px; 
 line-height: 50px;
 padding-bottom: 50px;
 }
 
 .upper-left{
-    padding-left: 140px;
+    font-weight: 100;
+    padding-left: 120px;
     padding-top: 120px;
     
 }
@@ -543,7 +569,7 @@ padding-bottom: 50px;
 hr{
     width: 1320px;
     height: 1px;
-    margin-left: 130px;
+    margin-left: 110px;
 
 }
 
@@ -556,7 +582,7 @@ hr{
 }
 
 .fb{
-    padding-left: 600px;
+    padding-left: 550px;
 }
 
 .smedia{
