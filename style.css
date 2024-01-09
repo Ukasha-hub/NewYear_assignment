@@ -3,6 +3,7 @@
     padding: 0px;
 }
 
+/*Header and Banner*/
 .banner{
     
     background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25)), url('resources/Banner\ Image.png') ;
@@ -42,8 +43,14 @@
     font-weight: 900; 
 }
 
+
+
 section{
     padding-top: 100px;
+
+
+/*section 1*/
+    
 }
 
 .sec1-texts{
@@ -74,6 +81,8 @@ section{
     padding-left: 350px;
     padding-top: 100px;
 }
+
+/*section 2*/
 
 .sec2{
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png') ;
@@ -122,21 +131,28 @@ section{
     font-family: Inter;
     font-size: 18px;
     padding-top: 20px; 
+    width: 600px;
 }
 
 #button-sec2{
-    padding-top: 20px;
+    margin-top: 20px;
+    padding: 10px;
     color: white;
     font-family: Inter;
     font-size: 20px; 
     background-color: transparent;
-    border-color: transparent;
+    border-color: white;
+    border-radius: 10px;
    
 }
 
-.btn-container:hover{
-    
+#button-sec2:hover{
+     
+    background-color: red;
+    border-color: transparent;
 }
+
+/*section 3*/
 
 .sec3{
     
@@ -185,6 +201,7 @@ span{
 
 }
 
+/*section 4*/
 .sec4{
     background-size: 1320px 482px;
     width: 1320px;
@@ -212,7 +229,7 @@ span{
     border: solid;
     border-color: red;
     border-radius: 500px;
-    border-width: 10px;
+    border-width: 15px;
     position: relative;
     left: 100px;
 }
@@ -277,6 +294,8 @@ span{
     
 }
 
+/*section 5*/
+
 .sec5-texts{
     text-align: center;
 }
@@ -336,6 +355,8 @@ span{
     top: 400px;
 }
 
+/*section 6*/
+
 .sec6-texts{
     text-align: left;
     padding-left: 100px;
@@ -381,8 +402,18 @@ span{
 .product{
     width: 424px;
     height: 450px; 
-    padding: 10px;
+    margin: 10px;
 }
+
+.product:hover{
+    border: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: red;
+    
+}
+
+/*section 7*/
 
 .sec7{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.05) 100%, rgba(255, 0, 0, 0.05) 100%);
@@ -444,11 +475,8 @@ font-size: 20px;
     height: 40px;
     width: 40%;
     border-color: transparent;
-input[placeholder]{
-    color: rgba(7, 2, 17, 0.30);
-text-align: center;
-font-family: Inter; 
-}  
+
+  
 
 }
 
@@ -466,6 +494,8 @@ font-family: Inter;
     font-family: Inter;
     
 }
+
+/*footer*/
 
 footer{
     bottom: 800px;
