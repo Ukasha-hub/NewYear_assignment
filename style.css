@@ -60,6 +60,7 @@ section{
 .sec1-texts{
     text-align: center;
     font-family: Inter;
+    margin: auto;
 }
 
 #first-sec1{
@@ -301,6 +302,10 @@ span{
 }
 
 /*section 5*/
+
+.sec5{
+    margin: auto;
+}
 
 .sec5-texts{
     text-align: center;
